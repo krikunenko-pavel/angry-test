@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "angry-test"
+version = "0.1.0"
+description = ""
+authors = ["Павел Крикуненко <pavelkrikunenko@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+pydantic = "^2.7.1"
+gunicorn = "^22.0.0"
+pytest = "^8.2.0"
+pytest-asyncio = "^0.23.6"
+pytest-aiohttp = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
